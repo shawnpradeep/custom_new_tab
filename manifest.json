@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "new tab extension",
+  "version": "1.0",
+  "description": "Redirects the new tab to a custom domain.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage", "activeTab"]
+}
